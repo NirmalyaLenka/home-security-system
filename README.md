@@ -1,13 +1,30 @@
-# home-security-system
+# Home Security System
 
----
+## Repository status
 
-## Repository structure
+This repository is currently a documentation placeholder. The tracked root contains only this README; no application source, microcontroller firmware, wiring diagram, schematic, bill of materials, dependency manifest, or configuration files were present in the inspected tree.
 
-Key files and folders (not exhaustive):
+The repository name indicates a home-security topic, but the available files do not establish which sensors, controller, alarm behavior, communication method, or access-control logic are intended. No implemented security feature should be inferred from the name alone.
 
-- `README.md`
+## Can it be built or run?
 
+Not from the current repository contents. There is no entry point, build configuration, or hardware design to follow.
+
+Before implementation or hardware assembly, add and review at least:
+
+1. A project scope and system architecture.
+2. The selected controller and sensor/actuator part numbers.
+3. A verified wiring diagram and pin table with voltage levels.
+4. Firmware or application source with dependency and upload/run instructions.
+5. A threat model and safe test procedure, especially for door locks, alarms, and mains-powered equipment.
+
+Do not connect real locks, alarms, or mains-powered devices based only on this repository name.
+
+## Verification status
+
+- The root repository listing was inspected and contained only README.md.
+- No source code, build, firmware upload, or hardware behavior could be tested from the files currently present.
+- No security or reliability claim is made.
 
 ## Maintenance & Audit
 
